@@ -11,7 +11,7 @@
 Server-side rendering VS. Client-side rendering [🔗](https://www.codeconquest.com/website/client-side-vs-server-side/)
 
 _thoughts?_
-
+php is server side render(think WordPress) while node is client based
 ---
 
 ### Binaries

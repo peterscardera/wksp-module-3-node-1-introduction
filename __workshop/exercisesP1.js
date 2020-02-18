@@ -1,11 +1,11 @@
 // Getting familiar with EJS and the project folder/file structure.
 
-// Question 1
+// Question 1 (request and response )
 // -----------------------------------------------
 const q1 = (req, res) => {
     // there is nothing to do here for this question
 
-    res.render('pages/question1');
+    res.render('pages/question1'); 
 }
 // -----------------------------------------------
 
@@ -34,7 +34,7 @@ const q3 = (req, res) => {
         favoriteBeverage: 'Duff Beer'
     };
 
-    res.render('pages/question3');
+    res.render('pages/question3', {homer: homer});
 }
 // -----------------------------------------------
 
@@ -44,7 +44,7 @@ const q3 = (req, res) => {
 const q4 = (req, res) => {
     const popularGirlNames = ['Olivia', 'Ruby', 'Emily', 'Grace', 'Jessica'];
 
-    res.render('pages/question4');
+    res.render('pages/question4', {pop:popularGirlNames} );
 }
 // -----------------------------------------------
 
@@ -54,7 +54,7 @@ const q4 = (req, res) => {
 const q5 = (req, res) => {
     const popularGirlNames = ['Olivia', 'Ruby', 'Emily', 'Grace', 'Jessica'];
 
-    res.render('pages/question5');
+    res.render('pages/question5', {popularGirlNames:popularGirlNames} );
 }
 // -----------------------------------------------
 

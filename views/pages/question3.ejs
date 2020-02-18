@@ -14,7 +14,13 @@
             <div class='box answer'>
                 <h3>Answer</h3>
                 <!-- render answer here -->
-                
+                <p>Name: <%=homer.name %> </p>
+                <p>DOB: <%=homer.dob %></p>
+                <p>Profession: <%= homer.profession %></p>
+                <p>Favorite Food: <%= homer.favoriteFood %></p>
+                <p>Favorite Beverage: <%= homer.favoriteBeverage %></p>
+                <img src='<%= homer.imageUrl %>' alt='<% homer.name %>' style='max-height:140px;' />
+            </div>
             </div>
         </div>
     </div>
